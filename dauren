@@ -1,0 +1,7 @@
+//! External dependencies of the near-vm-logic.
+
+use crate::types::{PublicKey, ReceiptIndex};
+use near_primitives_core::types::{AccountId, Balance, Gas};
+    /// `receipt_indices` are complete.
+    ///
+    /// If any of the [`RecepitIndex`]es do not refer to a known receipt, this function will fail
